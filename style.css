@@ -1,8 +1,20 @@
 * { box-sizing: border-box; }
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+    clear: both;} 
+
 header, nav, main, footer { display: block; }    
 body{ background-color: #FCEBB6; 
     color: #221811;
-    font-family: Verdana, Arial, sans-serif;}
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;}
 
 header {
     background-color: #d2b48c;
@@ -88,7 +100,42 @@ img { padding-left: 10px;
     background-size: 100% 100%;
     height: 400px;
     background-repeat: no-repeat;}
-    
+
+#becky { background-image: url(becky.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;}
+
+ #eagle { background-image: url(eagle.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;} 
+
+#sunset { background-image: url(sunset.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;}  
+
+#ashley { background-image: url(ashwedding.JPG); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;} 
+
+#waterfall { background-image: url(waterfall.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;} 
+
+#Vitaliy { background-image: url(Vitaliy.jpeg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;} 
+
 }
 
 .floatleft { float: left;
@@ -97,6 +144,21 @@ img { padding-left: 10px;
 }
 img {text-align: center;}
 
+
+<form action="mailto:s532851@nwmissouri.edu" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form> 
+}
+.column{
+    margin-bottom: 3em;}
+    
 #mobile { display:none; }
 #desktop { display: inline;}
 
@@ -117,6 +179,7 @@ img {text-align: center;}
     body{ background-color: #FCEBB6; 
         background-image: none;
         margin: 0;
+        text-align: center;
     }
     #wrapper {
         width: auto;
@@ -153,6 +216,55 @@ img {text-align: center;}
     main{ 
         margin: 0em;
         font-size: 90%;}
+    
+<form action="mailto:s532851@nwmissouri.edu" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+}
+.column{
+    margin-bottom: 3em; }
+
+#becky { background-image: url(becky.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;}
+
+#eagle { background-image: url(eagle.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;}
+
+#sunset { background-image: url(sunset.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;} 
+
+#ashley { background-image: url(ashwedding.JPG); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;} 
+
+#waterfall { background-image: url(waterfall.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;} 
+#Vitaliy { background-image: url(Vitaliy.jpeg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;} 
+
 
 
 @media only screen and (max-width: 768px) {
@@ -210,5 +322,54 @@ img {text-align: center;}
         padding-right: 0.5em;
     }
 
+<form action="mailto:s532851@nwmissouri.edu" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+}
+.column{
+    margin-bottom: 3em; }
+#becky { background-image: url(becky.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;}
+
+#eagle { background-image: url(eagle.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;}
+
     #mobile {display: inline;}
     #desktop {display: none;}
+
+ #sunset { background-image: url(sunset.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;}  
+
+#ashley { background-image: url(ashwedding.JPG); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;}
+
+#waterfall { background-image: url(waterfall.jpg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;} 
+
+#Vitaliy { background-image: url(Vitaliy.jpeg); 
+    background-size: 100% 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    margin: 0.5em;} 
+
