@@ -207,10 +207,10 @@ Comment:<br>
        nav ul {
         padding: 0;
         margin: 0;}
-    #canoncamera { background-image: url(heroroad.jpg); 
+    #canoncamera { background-image: url(canoncamera.jpg); 
         padding: 0em;
         margin: 0em; }
-    #abbyprofilepic { background-image: url(heromugs.jpg); 
+    #abbyprofilepic { background-image: url(abbyprofilepic.jpg); 
         padding: 0em;
         margin: 0em; }
     main{ 
@@ -268,7 +268,7 @@ Comment:<br>
 
 
 @media only screen and (max-width: 768px) {
-    header {background-image: url(javajammini.jpg);}
+    header {background-image: url(canoncamera.jpg);}
     height: 128px;
 
     h1 {
