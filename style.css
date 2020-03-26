@@ -268,8 +268,8 @@ Comment:<br>
 
 
 @media only screen and (max-width: 768px) {
-    header {background-image: url(canoncamera.jpg);}
-    height: 128px;
+    header {
+    height: 128px; }
 
     h1 {
         font-size: 2em;
